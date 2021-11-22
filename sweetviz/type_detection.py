@@ -1,6 +1,6 @@
 import pandas as pd
-from sweetviz.sv_types import FeatureType
-from sweetviz.from_profiling_pandas import is_boolean, is_numeric, is_categorical, could_be_numeric
+from sweetviz_drz.sv_types import FeatureType
+from sweetviz_drz.from_profiling_pandas import is_boolean, is_numeric, is_categorical, could_be_numeric
 
 
 def determine_feature_type(series: pd.Series, counts: dict,
